@@ -1,0 +1,29 @@
+ body {
+    box-sizing: border-box;  
+}
+
+
+.main-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    background-image: url(https://media.pitchfork.com/photos/5ad34693fdca4311f30bb01e/2:1/w_790/beyonce%20coachella%202018.jpg);
+    background-size: cover;
+}
+
+.text {
+    color: rgb(152, 148, 148);
+    background: black;
+    filter: opacity(50%);
+ }
+#lyric-form {
+    justify-content: left;
+}
+ #lyric-button {
+     margin-top: 15px;
+     margin-bottom: 30px;
+ }
